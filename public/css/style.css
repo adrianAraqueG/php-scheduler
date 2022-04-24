@@ -1,0 +1,46 @@
+/* PHP SCHEDULE - ADRIÁN ARAQUE */
+
+body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+/*
+    FIXERS
+*/
+.th-time{
+    width: 70px;
+}
+
+td{
+    -webkit-appearance: none !important;
+    max-width: 145px;
+}
+td:hover{
+    background-color: rgb(148, 148, 148) !important;
+}
+
+
+
+/*
+    TD COLORS
+*/
+.default-c{
+    background-color: rgb(68 66 66) !important;
+}
+
+.red-c{
+    background-color: rgb(204, 88, 88) !important;
+}
+
+.blue-c{
+    background-color: rgb(88, 129, 204) !important;
+}
+
+.green-c{
+    background-color: rgb(88, 204, 88) !important;
+}
+
+.yellow-c{
+    background-color: rgb(202, 204, 88) !important;
+}
