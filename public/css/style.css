@@ -1,15 +1,33 @@
 /* PHP SCHEDULE - ADRIÁN ARAQUE */
-
+html {
+    min-height: 100%;
+    position: relative;
+}
 body{
+    margin: 0;
+    margin-bottom: 40px;
     background: rgb(238,174,202);
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
+
+
 
 /*
     FIXERS
 */
 .th-time{
     width: 70px;
+}
+
+.container-login{
+    height: 100vh !important;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
 }
 
 td{

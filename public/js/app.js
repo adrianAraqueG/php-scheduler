@@ -9,6 +9,7 @@ const modalLabel = document.querySelector('#modalLabel');
 const modalClose1 = document.querySelector('#modalClose1');
 const modalClose2 = document.querySelector('#modalClose2');
 const modalSave = document.querySelector('#modalSave');
+const form = document.querySelector('#form');
 
 modalClose1.addEventListener('click', e =>{
     modalLabel.textContent = 'None of Above';
@@ -18,6 +19,12 @@ modalClose1.addEventListener('click', e =>{
 modalClose2.addEventListener('click', e =>{
     modalLabel.textContent = 'None of Above';
     modalBody.childNodes[1].lastChild.remove();
+});
+
+
+modalSave.addEventListener('click', e =>{
+    console.log('h');
+    form.submit();
 });
 
 
