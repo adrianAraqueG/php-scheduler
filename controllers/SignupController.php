@@ -1,10 +1,10 @@
 <?php
 
-class LoginController{
+class SignupController{
 
     /** Index */
     public static function index(){
-        include_once('view/login.php');
+        include_once('view/register.php');
     }
 }
 

@@ -1,7 +1,7 @@
 <?php 
 
 class HomeController{
-    public function index(){
+    public static function index(){
         require_once('view/home.php');
     }
 }
