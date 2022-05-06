@@ -3,7 +3,7 @@
 <div class="container-fluid container-login">
     <h1 class="text-light text-center">PHP SCHEDULER</h1>
     <div class="row justify-content-center">
-        <div class="col-md-6">
+        <div class="col-md-4">
             <div class="container mb-2 mt-2 bg-light p-4 rounded-3">
                 <form method="POST" id="form-login">
                     <h3 class="text-center">Entrar</h3>

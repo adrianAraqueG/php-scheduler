@@ -34,7 +34,7 @@ function edit(time){
         // 6 - 7
         case 'mon-6':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Monday 6-7';
+            modalLabel.textContent = 'Lunes 6-7';
             
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -46,7 +46,7 @@ function edit(time){
         }
         case 'tue-6':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Tuesday 6-7';
+            modalLabel.textContent = 'Martes 6-7';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -57,7 +57,7 @@ function edit(time){
         }
         case 'wed-6':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Wednesday 6-7';
+            modalLabel.textContent = 'Miércoles 6-7';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -68,7 +68,7 @@ function edit(time){
         }
         case 'thu-6':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Thursday 6-7';
+            modalLabel.textContent = 'Jueves 6-7';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -79,7 +79,7 @@ function edit(time){
         }
         case 'fri-6':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Friday 6-7';
+            modalLabel.textContent = 'Viernes 6-7';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -90,7 +90,7 @@ function edit(time){
         }
         case 'sat-6':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Saturday 6-7';
+            modalLabel.textContent = 'Sábado 6-7';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -101,7 +101,7 @@ function edit(time){
         }
         case 'sun-6':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Sunday 6-7';
+            modalLabel.textContent = 'Domingo 6-7';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -114,7 +114,7 @@ function edit(time){
         // 7 - 8
         case 'mon-7':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Monday 7-8';
+            modalLabel.textContent = 'Lunes 7-8';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -125,7 +125,7 @@ function edit(time){
         }
         case 'tue-7':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Tuesday 7-8';
+            modalLabel.textContent = 'Martes 7-8';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -147,7 +147,7 @@ function edit(time){
         }
         case 'thu-7':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Thursday 7-8';
+            modalLabel.textContent = 'Jueves 7-8';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -158,7 +158,7 @@ function edit(time){
         }
         case 'fri-7':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Friday 7-8';
+            modalLabel.textContent = 'Viernes 7-8';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -169,7 +169,7 @@ function edit(time){
         }
         case 'sat-7':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Saturday 7-8';
+            modalLabel.textContent = 'Sábado 7-8';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -180,7 +180,7 @@ function edit(time){
         }
         case 'sun-7':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Sunday 7-8';
+            modalLabel.textContent = 'Domingo 7-8';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -193,7 +193,7 @@ function edit(time){
         // 8 - 9
         case 'mon-8':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Monday 8-9';
+            modalLabel.textContent = 'Lunes 8-9';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -204,7 +204,7 @@ function edit(time){
         }
         case 'tue-8':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Tuesday 8-9';
+            modalLabel.textContent = 'Martes 8-9';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -226,7 +226,7 @@ function edit(time){
         }
         case 'thu-8':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Thursday 8-9';
+            modalLabel.textContent = 'Jueves 8-9';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -237,7 +237,7 @@ function edit(time){
         }
         case 'fri-8':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Friday 8-9';
+            modalLabel.textContent = 'Viernes 8-9';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -248,7 +248,7 @@ function edit(time){
         }
         case 'sat-8':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Saturday 8-9';
+            modalLabel.textContent = 'Sábado 8-9';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -259,7 +259,7 @@ function edit(time){
         }
         case 'sun-8':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Sunday 8-9';
+            modalLabel.textContent = 'Domingo 8-9';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -272,7 +272,7 @@ function edit(time){
         // 9 - 10
         case 'mon-9':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Monday 9-10';
+            modalLabel.textContent = 'Lunes 9-10';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -283,7 +283,7 @@ function edit(time){
         }
         case 'tue-9':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Tuesday 9-10';
+            modalLabel.textContent = 'Martes 9-10';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -305,7 +305,7 @@ function edit(time){
         }
         case 'thu-9':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Thursday 9-10';
+            modalLabel.textContent = 'Jueves 9-10';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -316,7 +316,7 @@ function edit(time){
         }
         case 'fri-9':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Friday 9-10';
+            modalLabel.textContent = 'Viernes 9-10';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -327,7 +327,7 @@ function edit(time){
         }
         case 'sat-9':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Saturday 9-10';
+            modalLabel.textContent = 'Sábado 9-10';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -338,7 +338,7 @@ function edit(time){
         }
         case 'sun-9':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Sunday 9-10';
+            modalLabel.textContent = 'Domingo 9-10';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -351,7 +351,7 @@ function edit(time){
         // 10 - 11
         case 'mon-10':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Monday 10-11';
+            modalLabel.textContent = 'Lunes 10-11';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -362,7 +362,7 @@ function edit(time){
         }
         case 'tue-10':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Tuesday 10-11';
+            modalLabel.textContent = 'Martes 10-11';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -384,7 +384,7 @@ function edit(time){
         }
         case 'thu-10':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Thursday 10-11';
+            modalLabel.textContent = 'Jueves 10-11';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -395,7 +395,7 @@ function edit(time){
         }
         case 'fri-10':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Friday 10-11';
+            modalLabel.textContent = 'Viernes 10-11';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -406,7 +406,7 @@ function edit(time){
         }
         case 'sat-10':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Saturday 10-11';
+            modalLabel.textContent = 'Sábado 10-11';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -417,7 +417,7 @@ function edit(time){
         }
         case 'sun-10':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Sunday 10-11';
+            modalLabel.textContent = 'Domingo 10-11';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -430,7 +430,7 @@ function edit(time){
         // 11 - 12
         case 'mon-11':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Monday 11-12';
+            modalLabel.textContent = 'Lunes 11-12';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -441,7 +441,7 @@ function edit(time){
         }
         case 'tue-11':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Tuesday 11-12';
+            modalLabel.textContent = 'Martes 11-12';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -463,7 +463,7 @@ function edit(time){
         }
         case 'thu-11':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Thursday 11-12';
+            modalLabel.textContent = 'Jueves 11-12';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -474,7 +474,7 @@ function edit(time){
         }
         case 'fri-11':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Friday 11-12';
+            modalLabel.textContent = 'Viernes 11-12';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -485,7 +485,7 @@ function edit(time){
         }
         case 'sat-11':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Saturday 11-12';
+            modalLabel.textContent = 'Sábado 11-12';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -496,7 +496,7 @@ function edit(time){
         }
         case 'sun-11':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Sunday 11-12';
+            modalLabel.textContent = 'Domingo 11-12';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -509,7 +509,7 @@ function edit(time){
         // 12 - 13
         case 'mon-12':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Monday 12-13';
+            modalLabel.textContent = 'Lunes 12-13';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -520,7 +520,7 @@ function edit(time){
         }
         case 'tue-12':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Tuesday 12-13';
+            modalLabel.textContent = 'Martes 12-13';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -542,7 +542,7 @@ function edit(time){
         }
         case 'thu-12':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Thursday 12-13';
+            modalLabel.textContent = 'Jueves 12-13';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -553,7 +553,7 @@ function edit(time){
         }
         case 'fri-12':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Friday 12-13';
+            modalLabel.textContent = 'Viernes 12-13';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -564,7 +564,7 @@ function edit(time){
         }
         case 'sat-12':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Saturday 12-13';
+            modalLabel.textContent = 'Sábado 12-13';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -575,7 +575,7 @@ function edit(time){
         }
         case 'sun-12':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Sunday 12-13';
+            modalLabel.textContent = 'Domingo 12-13';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -588,7 +588,7 @@ function edit(time){
         // 13 - 14
         case 'mon-13':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Monday 13-14';
+            modalLabel.textContent = 'Lunes 13-14';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -599,7 +599,7 @@ function edit(time){
         }
         case 'tue-13':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Tuesday 13-14';
+            modalLabel.textContent = 'Martes 13-14';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -621,7 +621,7 @@ function edit(time){
         }
         case 'thu-13':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Thursday 13-14';
+            modalLabel.textContent = 'Jueves 13-14';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -632,7 +632,7 @@ function edit(time){
         }
         case 'fri-13':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Friday 13-14';
+            modalLabel.textContent = 'Viernes 13-14';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -643,7 +643,7 @@ function edit(time){
         }
         case 'sat-13':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Saturday 13-14';
+            modalLabel.textContent = 'Sábado 13-14';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -654,7 +654,7 @@ function edit(time){
         }
         case 'sun-13':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Sunday 13-14';
+            modalLabel.textContent = 'Domingo 13-14';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -667,7 +667,7 @@ function edit(time){
         // 14 - 15
         case 'mon-14':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Monday 14-15';
+            modalLabel.textContent = 'Lunes 14-15';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -678,7 +678,7 @@ function edit(time){
         }
         case 'tue-14':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Tuesday 14-15';
+            modalLabel.textContent = 'Martes 14-15';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -700,7 +700,7 @@ function edit(time){
         }
         case 'thu-14':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Thursday 14-15';
+            modalLabel.textContent = 'Jueves 14-15';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -711,7 +711,7 @@ function edit(time){
         }
         case 'fri-14':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Friday 14-15';
+            modalLabel.textContent = 'Viernes 14-15';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -722,7 +722,7 @@ function edit(time){
         }
         case 'sat-14':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Saturday 14-15';
+            modalLabel.textContent = 'Sábado 14-15';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -733,7 +733,7 @@ function edit(time){
         }
         case 'sun-14':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Sunday 14-15';
+            modalLabel.textContent = 'Domingo 14-15';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -746,7 +746,7 @@ function edit(time){
         // 15 - 16
         case 'mon-15':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Monday 15-16';
+            modalLabel.textContent = 'Lunes 15-16';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -757,7 +757,7 @@ function edit(time){
         }
         case 'tue-15':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Tuesday 15-16';
+            modalLabel.textContent = 'Martes 15-16';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -779,7 +779,7 @@ function edit(time){
         }
         case 'thu-15':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Thursday 15-16';
+            modalLabel.textContent = 'Jueves 15-16';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -790,7 +790,7 @@ function edit(time){
         }
         case 'fri-15':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Friday 15-16';
+            modalLabel.textContent = 'Viernes 15-16';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -801,7 +801,7 @@ function edit(time){
         }
         case 'sat-15':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Saturday 15-16';
+            modalLabel.textContent = 'Sábado 15-16';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -812,7 +812,7 @@ function edit(time){
         }
         case 'sun-15':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Sunday 15-16';
+            modalLabel.textContent = 'Domingo 15-16';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -825,7 +825,7 @@ function edit(time){
         // 16 - 17
         case 'mon-16':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Monday 16-17';
+            modalLabel.textContent = 'Lunes 16-17';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -836,7 +836,7 @@ function edit(time){
         }
         case 'tue-16':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Tuesday 16-17';
+            modalLabel.textContent = 'Martes 16-17';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -858,7 +858,7 @@ function edit(time){
         }
         case 'thu-16':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Thursday 16-17';
+            modalLabel.textContent = 'Jueves 16-17';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -869,7 +869,7 @@ function edit(time){
         }
         case 'fri-16':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Friday 16-17';
+            modalLabel.textContent = 'Viernes 16-17';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -880,7 +880,7 @@ function edit(time){
         }
         case 'sat-16':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Saturday 16-17';
+            modalLabel.textContent = 'Sábado 16-17';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -891,7 +891,7 @@ function edit(time){
         }
         case 'sun-16':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Sunday 16-17';
+            modalLabel.textContent = 'Domingo 16-17';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -904,7 +904,7 @@ function edit(time){
         // 17 - 18
         case 'mon-17':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Monday 17-18';
+            modalLabel.textContent = 'Lunes 17-18';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -915,7 +915,7 @@ function edit(time){
         }
         case 'tue-17':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Tuesday 17-18';
+            modalLabel.textContent = 'Martes 17-18';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -937,7 +937,7 @@ function edit(time){
         }
         case 'thu-17':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Thursday 17-18';
+            modalLabel.textContent = 'Jueves 17-18';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -948,7 +948,7 @@ function edit(time){
         }
         case 'fri-17':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Friday 17-18';
+            modalLabel.textContent = 'Viernes 17-18';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -959,7 +959,7 @@ function edit(time){
         }
         case 'sat-17':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Saturday 17-18';
+            modalLabel.textContent = 'Sábado 17-18';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -970,7 +970,7 @@ function edit(time){
         }
         case 'sun-17':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Sunday 17-18';
+            modalLabel.textContent = 'Domingo 17-18';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -983,7 +983,7 @@ function edit(time){
         // 18 - 19
         case 'mon-18':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Monday 18-19';
+            modalLabel.textContent = 'Lunes 18-19';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -994,7 +994,7 @@ function edit(time){
         }
         case 'tue-18':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Tuesday 18-19';
+            modalLabel.textContent = 'Martes 18-19';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -1016,7 +1016,7 @@ function edit(time){
         }
         case 'thu-18':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Thursday 18-19';
+            modalLabel.textContent = 'Jueves 18-19';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -1027,7 +1027,7 @@ function edit(time){
         }
         case 'fri-18':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Friday 18-19';
+            modalLabel.textContent = 'Viernes 18-19';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -1038,7 +1038,7 @@ function edit(time){
         }
         case 'sat-18':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Saturday 18-19';
+            modalLabel.textContent = 'Sábado 18-19';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -1049,7 +1049,7 @@ function edit(time){
         }
         case 'sun-18':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Sunday 18-19';
+            modalLabel.textContent = 'Domingo 18-19';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -1062,7 +1062,7 @@ function edit(time){
         // 19 - 20
         case 'mon-19':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Monday 19-20';
+            modalLabel.textContent = 'Lunes 19-20';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -1073,7 +1073,7 @@ function edit(time){
         }
         case 'tue-19':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Tuesday 19-20';
+            modalLabel.textContent = 'Martes 19-20';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -1095,7 +1095,7 @@ function edit(time){
         }
         case 'thu-19':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Thursday 19-20';
+            modalLabel.textContent = 'Jueves 19-20';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -1106,7 +1106,7 @@ function edit(time){
         }
         case 'fri-19':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Friday 19-20';
+            modalLabel.textContent = 'Viernes 19-20';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -1117,7 +1117,7 @@ function edit(time){
         }
         case 'sat-19':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Saturday 19-20';
+            modalLabel.textContent = 'Sábado 19-20';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -1128,7 +1128,7 @@ function edit(time){
         }
         case 'sun-19':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Sunday 19-20';
+            modalLabel.textContent = 'Domingo 19-20';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -1141,7 +1141,7 @@ function edit(time){
         // 20 - 21
         case 'mon-20':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Monday 20-21';
+            modalLabel.textContent = 'Lunes 20-21';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -1152,7 +1152,7 @@ function edit(time){
         }
         case 'tue-20':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Tuesday 20-21';
+            modalLabel.textContent = 'Martes 20-21';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -1174,7 +1174,7 @@ function edit(time){
         }
         case 'thu-20':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Thursday 20-21';
+            modalLabel.textContent = 'Jueves 20-21';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -1185,7 +1185,7 @@ function edit(time){
         }
         case 'fri-20':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Friday 20-21';
+            modalLabel.textContent = 'Viernes 20-21';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -1196,7 +1196,7 @@ function edit(time){
         }
         case 'sat-20':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Saturday 20-21';
+            modalLabel.textContent = 'Sábado 20-21';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -1207,7 +1207,7 @@ function edit(time){
         }
         case 'sun-20':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Sunday 20-21';
+            modalLabel.textContent = 'Domingo 20-21';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -1220,7 +1220,7 @@ function edit(time){
         // 21 - 22
         case 'mon-21':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Monday 21-22';
+            modalLabel.textContent = 'Lunes 21-22';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -1231,7 +1231,7 @@ function edit(time){
         }
         case 'tue-21':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Tuesday 21-22';
+            modalLabel.textContent = 'Martes 21-22';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -1253,7 +1253,7 @@ function edit(time){
         }
         case 'thu-21':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Thursday 21-22';
+            modalLabel.textContent = 'Jueves 21-22';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -1264,7 +1264,7 @@ function edit(time){
         }
         case 'fri-21':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Friday 21-22';
+            modalLabel.textContent = 'Viernes 21-22';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -1275,7 +1275,7 @@ function edit(time){
         }
         case 'sat-21':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Saturday 21-22';
+            modalLabel.textContent = 'Sábado 21-22';
 
             const input = document.createElement('input');
             input.type = 'hidden';
@@ -1286,7 +1286,7 @@ function edit(time){
         }
         case 'sun-21':{
             console.log('Editando: ', time);
-            modalLabel.textContent = 'Sunday 21-22';
+            modalLabel.textContent = 'Domingo 21-22';
 
             const input = document.createElement('input');
             input.type = 'hidden';

@@ -1,7 +1,7 @@
 
 <?php include('layout/header.php') ?>
 
-<h1 class="text-center p-3">PHP Schedule</h1>
+<h1 class="text-center p-3">Mi Horario</h1>
 
     <!-- Schedule -->
     <div class="container">
@@ -10,13 +10,13 @@
                 <thead>
                     <tr class="text-center">
                         <th class="th-time">Time</th>
-                        <th>Monday</th>
-                        <th>Tuesday</th>
-                        <th>Wednesday</th>
-                        <th>Thursday</th>
-                        <th>Friday</th>
-                        <th>Saturday</th>
-                        <th>Sunday</th>
+                        <th>Lunes</th>
+                        <th>Martes</th>
+                        <th>Miércoles</th>
+                        <th>Jueves</th>
+                        <th>Viernes</th>
+                        <th>Sábado</th>
+                        <th>Domingo</th>
                     </tr>
                 </thead>
 
@@ -24,7 +24,10 @@
                     <tr>
                         <th>6 - 7</th>
                         <td class="default-c" id="mon-6" onclick="edit('mon-6')" type="button" data-bs-toggle="modal" data-bs-target="#modal">
-                            <b>Trabajo de Grado</b>
+                            <b>Trabajo de Grado y un titulo largo</b>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                            </svg>
                         </td>
                         <td class="default-c" id="tue-6" onclick="edit('tue-6')" type="button" data-bs-toggle="modal" data-bs-target="#modal">
                             T
@@ -417,29 +420,34 @@
         <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="modalLabel">Modal title</h5>
+                <h5 class="modal-title" id="modalLabel">Lunes 6-7</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" id="modalClose2"></button>
                 </div>
                 <div class="modal-body" id="modalBody">
                     <form action="info.php" method="POST" id="form">
-                        <label for="task-label" class="form-label">Subjet</label>
+                        <label for="task-label" class="form-label">Título</label>
                         <input type="text" class="form-control" name="task-label" maxlength="20">
 
-                        <label for="t-cell-color" class="form-label">Table Cell Color</label>
+                        <div class="form-check mt-2">
+                            <label for="markup" class="form-label">Marcador</label>
+                            <input type="checkbox" class="form-check-input" name="markup">
+                        </div>
+
+                        <label for="t-cell-color" class="form-label">Color de Celda</label>
                         <select name="t-cell-color" id="t-cell-color" class="form-select">
-                            <option value="default-c" default>Default Color</option>
-                            <option value="red-c">Red</option>
-                            <option value="blue-c">Blue</option>
-                            <option value="green-c">Green</option>
-                            <option value="yellow-c">Yellow</option>
+                            <option value="default-c" default>Por Defecto (Gris)</option>
+                            <option value="red-c">Rojo</option>
+                            <option value="blue-c">Azul</option>
+                            <option value="green-c">Verde</option>
+                            <option value="yellow-c">Amarillo</option>
                         </select>
-                        <label for="task-desc" class="form-label mt-2">Description</label>
-                        <textarea class="form-control" name="task-desc" cols="30" rows="10" placeholder="describe your task here..." maxlength="140"></textarea>
+                        <label for="task-desc" class="form-label mt-2">Descripción</label>
+                        <textarea class="form-control" name="task-desc" cols="30" rows="10" placeholder="describe tu tarea aquí..." maxlength="140"></textarea>
                     </form>
                 </div>
                 <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id="modalClose1">Close</button>
-                <button type="button" class="btn btn-primary" id="modalSave">Understood</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id="modalClose1">Cerrar</button>
+                <button type="button" class="btn btn-primary" id="modalSave">Guardar</button>
             </div>
         </div>
         </div>
