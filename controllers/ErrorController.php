@@ -1,7 +1,7 @@
 <?php 
 
 class ErrorController{
-    public function index(){
+    public static function index(){
         include_once 'view/error.php';
     }
 }

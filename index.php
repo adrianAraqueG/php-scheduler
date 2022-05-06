@@ -19,20 +19,30 @@
 	// Custom 404 Handler
     $router->set404(function () {
         header($_SERVER['SERVER_PROTOCOL'] . ' 404 Not Found');
-        HomeController::index();
+        ErrorController::index();
     });
 
 	/** --- GET --- */
-	// Login
-	$router->get('/', function(){
-		LoginController::index();
-	});
+
+		// Login
+		$router->get('/', function(){
+			LoginController::index();
+		});
+		// Login*
+		$router->get('/login', function(){
+			header('location: '.base_url);
+		});
+
+		// Register
+		$router->get('/registro', function(){
+			SignupController::index();
+		});
 
 
-	// Home
-	$router->get('/home', function(){
-		HomeController::index();
-	});
+		// Home
+		$router->get('/home', function(){
+			HomeController::index();
+		});
 
 
 	$router->run();

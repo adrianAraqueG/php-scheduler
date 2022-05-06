@@ -12,7 +12,7 @@
 <body>
 
 <div class="d-flex align-items-center justify-content-center" style="height: 100vh;">
-    <div class="bg-secondary rounded  text-center p-5">
+    <div class="bg-secondary rounded  text-center p-5 text-light">
         <h4>Lo siento, no pudimos encontrar lo que buscas :(</h4>
         <p>Redirigiendo...</p>
         <h5 id="counter">6</h5>
