@@ -6,11 +6,15 @@
 
 	session_start();
 	
+	require(__DIR__.'/vendor/autoload.php');
+
+	$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+	$dotenv->load();
+
 	require_once('./config/parameters.php');
 	require_once('./config/db.php');
 	require_once('./helpers/utilities.php');
 	require_once('./autoload.php');
-	require(__DIR__.'/vendor/autoload.php');
 
 
 

@@ -4,7 +4,7 @@ class DB{
 
     public static function connect(){
         
-        $db = new mysqli('bqiyiuwunununpotgipx-mysql.services.clever-cloud.com', 'ubc3jg7qyz05cug5', 'nzuuL13P3TMteyo413UH', 'bqiyiuwunununpotgipx','3306');
+        $db = new mysqli($_ENV['MYSQL_ADDON_HOST'], $_ENV['MYSQL_ADDON_USER'], $_ENV['MYSQL_ADDON_PASSWORD'], $_ENV['MYSQL_ADDON_DB'],'3306');
         return $db;
     }
 
