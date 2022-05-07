@@ -1,16 +1,23 @@
-<?php include('layout/header.php') ?>
+<?php include('view/layout/header.php') ?>
 
 <div class="container-fluid container-login">
     <h1 class="text-light text-center">PHP SCHEDULER</h1>
     <div class="row justify-content-center">
         <div class="col-md-4">
+            <?php if(isset($_SESSION['register']) && $_SESSION['register'] == 'complete'): ?>
+                <div class="alert alert-success text-center"><p class="mb-0">Usuario guardado!</p></div>
+            <?php elseif(isset($_SESSION['register']) && $_SESSION['register'] != 'complete'): ?>
+                <div class="alert alert-danger text-center"><?= $_SESSION['register']?></div>
+            <?php endif; ?>
+            <?php Utilities::deleteSesion('register')?>
             <div class="container mb-2 mt-2 bg-light p-4 rounded-3">
-                <form method="POST" id="form-login">
+                
+                <form method="POST" action="<?=base_url?>registro/saveuser" id="form-login">
                     <h3 class="text-center">Registrarse</h3>
 
                     <div class="mb-3">
-                        <label class="form-label" for="name">Usuario: </label>
-                        <input class="form-control" name="name" type="text" value="" />
+                        <label class="form-label" for="username">Usuario: </label>
+                        <input class="form-control" name="username" type="text" value="" />
                     </div>
                     <div class="mb-3">
                         <label class="form-label" for="email">Email: </label>
@@ -30,4 +37,4 @@
     </div>
 </div>
 
-<?php include('layout/footer.php') ?>
+<?php include('view/layout/footer.php') ?>

@@ -1,0 +1,7 @@
+- Ajustar rutas.
+    Login: '/entrar'
+    register: '/registro'
+    Scheduler view: '/user/scheduler'
+- Ajustar middlewares.
+- Implementar validación en el cliente
+- Implementar variables de entorno

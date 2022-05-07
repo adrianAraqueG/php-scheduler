@@ -1,7 +1,16 @@
 <?php 
 
 class HomeController{
-    public static function index(){
-        require_once('view/home.php');
-    }
+    /**---------------------------------------- */
+    /**---------------- Views ----------------- */
+    /**---------------------------------------- */
+
+        public static function index(){
+            require_once('view/scheduler/home.php');
+        }
+    
+    
+    /**---------------------------------------- */
+    /**---------------- Methods --------------- */
+    /**---------------------------------------- */
 }
