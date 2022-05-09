@@ -52,6 +52,12 @@
 			exit();
 		}
 	});
+	$router->before('GET', '/registro', function() {
+		if (isset($_SESSION['identity'])) {
+			header('location: '.base_url.'home');
+			exit();
+		}
+	});
 
 	/** --- GET --- */
 
