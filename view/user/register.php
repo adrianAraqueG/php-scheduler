@@ -1,8 +1,10 @@
 <?php include('view/layout/header.php') ?>
 
-<div class="container-fluid container-login">
+<div class="container-login-register">
     <h1 class="text-light text-center">PHP SCHEDULER</h1>
+    <div class="container">
     <div class="row justify-content-center">
+        <div class="col-md-4"></div>
         <div class="col-md-4">
             <?php if(isset($_SESSION['register']) && $_SESSION['register'] == 'complete'): ?>
                 <div class="alert alert-success text-center"><p class="mb-0">Usuario guardado!</p></div>
@@ -34,6 +36,8 @@
                 <a href="<?=base_url?>" class="d-block mt-2">¿Ya tienes una cuenta?</a>
             </div>
         </div>
+        <div class="col-md-4"></div>
+    </div>
     </div>
 </div>
 
