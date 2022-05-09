@@ -68,7 +68,7 @@ class UserController{
                     return;
                 }else{
                     var_dump('err');
-                    $_SESSION['error_login'] = "</strong class='alert alert-danger text-center'>Error al iniciar sesión</strong>";
+                    $_SESSION['error_login'] = "credentials";
                 }
             }
 

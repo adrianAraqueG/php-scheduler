@@ -2,6 +2,9 @@
 
 <div class="container-login-register">
     <h1 class="text-light text-center">PHP SCHEDULER</h1>
+    <?php if(isset($_SESSION['error_login']) && $_SESSION['error_login'] == 'credentials'): ?>
+        <div class="alert alert-danger tex-center"><h6>Revisa tus credenciales</h6></div>
+    <?php endif; ?>
     <div class="container">
         <div class="row">
             <div class="col-md-4"></div>
@@ -21,5 +24,7 @@
         </div>
     </div>
 </div>
+
+<?php Utilities::deleteSesion('error_login') ?>
 
 <?php include('view/layout/footer.php') ?>
