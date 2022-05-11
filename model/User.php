@@ -1,8 +1,7 @@
 <?php
 
 class User{
-     /** Methods */
-     /** ATRIBUTOS */
+    
     private $id;
     private $username;
     private $email;
@@ -71,6 +70,8 @@ class User{
 
     public function save(){
         $password_hash = password_hash($this->password, PASSWORD_DEFAULT);
+        // Crear Scheduler
+
         $sql = "INSERT INTO user VALUES(NULL, '{$this->getUsername()}', '{$this->getEmail()}', '{$password_hash}', CURDATE(), NULL)";
         $save = $this->db->query($sql);
 
