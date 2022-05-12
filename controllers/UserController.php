@@ -1,6 +1,7 @@
 <?php
 
 require_once 'model/User.php';
+require_once 'model/Schedule.php';
 
 class UserController{
     /**---------------------------------------- */
@@ -37,7 +38,7 @@ class UserController{
                     $save = $usuario->save();
 
                     if($save){
-                        $_SESSION['register']= 'complete';
+                        $_SESSION['register'] = 'complete';
                     }else{
                         $_SESSION['register']= 'failed';
                     }
