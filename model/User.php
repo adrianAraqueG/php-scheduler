@@ -12,7 +12,9 @@ class User{
         $this->db = DB::connect();
     }
 
-    /** MÉTODOS */
+    /**---------------------------------------- */
+    /**---------------- Methods --------------- */
+    /**---------------------------------------- */
 
     // SET
     public function setId($id){
@@ -52,7 +54,7 @@ class User{
         $sql="SELECT * FROM user WHERE email = '{$this->email}'";
         $login = $this->db->query($sql);
 
-        //Validar los datos / Valido si existe el registro
+        //Validar los datos / Valido si existe el registro de la DB
         if($login->num_rows == 1){
             // Convierto la query en un objeto
             $usuario = $login->fetch_object();
@@ -83,6 +85,17 @@ class User{
         }
 
         return $result;
+    }
+
+    public function consultUser($email){
+        $sql = "SELECT * FROM user WHERE email = '{$email}'";
+        
+        try{
+            $user = $this->db->query($sql);
+            return $user->fetch_object();
+        }catch(Exception $err){
+            var_dump($err);
+        }
     }
 
 

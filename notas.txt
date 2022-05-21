@@ -1,7 +1,3 @@
-- Ajustar rutas.
-    Login: '/entrar'
-    register: '/registro'
-    Scheduler view: '/user/scheduler'
-- Ajustar middlewares.
-- Implementar validación en el cliente
-- Implementar variables de entorno
+TAREA UNICA: 
+    Cargar desde PHP el horario al localhost, desde ahí
+    vamos a cargar los datos en el modal.

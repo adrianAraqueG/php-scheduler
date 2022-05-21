@@ -28,18 +28,18 @@
 	// Custom 404 Handler
     $router->set404(function () {
         header($_SERVER['SERVER_PROTOCOL'] . ' 404 Not Found');
-        ErrorController::index();
+        ErrorController::err404();
     });
 
 
 	/** --- Middlewares --- */
+
 	$router->before('GET', '/home', function() {
 		if (!isset($_SESSION['identity'])) {
 			header('location: '.base_url);
 			exit();
 		}
 	});
-
 	$router->before('GET', '/', function() {
 		if (isset($_SESSION['identity'])) {
 			header('location: '.base_url.'home');
@@ -55,6 +55,12 @@
 	$router->before('GET', '/registro', function() {
 		if (isset($_SESSION['identity'])) {
 			header('location: '.base_url.'home');
+			exit();
+		}
+	});
+	$router->before('GET', '/errgen', function() {
+		if(!isset($_SESSION['errgen'])){
+			header('location: '.base_url.'entrar');
 			exit();
 		}
 	});
@@ -80,10 +86,17 @@
 		$router->get('/home', function(){
 			HomeController::index();
 		});
-	
+
+
+		// General error message
+		$router->get('/errgen', function(){
+			ErrorController::errGen();
+			Utilities::deleteSesion('errgen');
+		});
 
 
 	/** --- POST --- */
+	
 		$router->post('/registro/saveuser', function(){
 			UserController::saveUser();
 		});
@@ -94,5 +107,14 @@
 
 
 	$router->run();
+
+	// Probar DB
+	try{
+		$test = DB::connect();
+		$test->query("SET NAMES 'utf8'");
+	}catch(Exception $err){
+		$_SESSION['errgen'] = 'errgen';
+		header('location: '.base_url.'errgen');
+	}
 
 

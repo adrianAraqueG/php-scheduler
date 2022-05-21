@@ -9,7 +9,16 @@ class UserController{
     /**---------------------------------------- */
 
         public static function loginView(){
+            // $arr = [ 
+            //     "hola" => "hola", 
+            //     2 => "Dos",
+            //     "obj" => array("segundo" => "hola2")
+            // ];
+
+            // echo json_encode($arr["obj"]);
+
             include_once('view/user/login.php');
+
         }
 
         public static function signupView(){
@@ -38,7 +47,18 @@ class UserController{
                     $save = $usuario->save();
 
                     if($save){
-                        $_SESSION['register'] = 'complete';
+
+                        // Consultar el user con el email
+                        $currentUser = $usuario->consultUser($email);
+
+                        // Crearle un nuevo schedule al usuario
+                        $schedule = new Schedule();
+                        if($schedule->createSchedule($currentUser->id)){
+                            $_SESSION['register'] = 'complete';
+                        }else{
+                            $_SESSION['register']= 'failed';
+                        }
+
                     }else{
                         $_SESSION['register']= 'failed';
                     }

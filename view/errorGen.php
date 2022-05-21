@@ -12,27 +12,9 @@
 <body>
 
 <div class="d-flex align-items-center justify-content-center" style="height: 100vh;">
-    <div class="bg-secondary rounded  text-center p-5">
-        <h4>Lo siento, no pudimos guardar el último cambio, :(</h4>
-        <p>Redirigiendo...</p>
-        <h5 id="counter">6</h5>
+    <div class="bg-secondary rounded  text-center p-5 text-light">
+        <h4>Estamos teniendo problemas, trabajamos lo más rápido para estar de nuevo contigo. :)</h4>
     </div>
-    <script>
-        document.addEventListener('DOMContentLoaded', () =>{
-            const counter = document.querySelector('#counter');
-
-            let i = 5;
-
-            setInterval(() =>{
-                if(i === 0){
-                    window.location.replace('index.php');
-                }
-
-                counter.textContent = i;
-                i--;
-            }, 1000);
-        });
-    </script>
 </div>
 
 <?php require_once 'layout/footer.php' ?> 
