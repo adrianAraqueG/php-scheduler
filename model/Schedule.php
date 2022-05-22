@@ -16,97 +16,97 @@ class Schedule{
 
             $schedule = [
                 "monday" => array(
-                    "6" => array(
+                    "mon-6" => array(
                         "title" => "Monday madafaka",
                         "markup" => "1",
                         "cell-color" => "red-c",
                         "description" => ""
                     ),
-                    "7" => array(
+                    "mon-7" => array(
                         "title" => "Otra",
                         "markup" => "1",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "8" => array(
+                    "mon-8" => array(
                         "title" => "M",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "9" => array(
+                    "mon-9" => array(
                         "title" => "M",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "10" => array(
+                    "mon-10" => array(
                         "title" => "M",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "11" => array(
+                    "mon-11" => array(
                         "title" => "M",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "12" => array(
+                    "mon-12" => array(
                         "title" => "M",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "13" => array(
+                    "mon-13" => array(
                         "title" => "M",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "14" => array(
+                    "mon-14" => array(
                         "title" => "M",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "15" => array(
+                    "mon-15" => array(
                         "title" => "M",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "16" => array(
+                    "mon-16" => array(
                         "title" => "M",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "17" => array(
+                    "mon-17" => array(
                         "title" => "M",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "18" => array(
+                    "mon-18" => array(
                         "title" => "M",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "19" => array(
+                    "mon-19" => array(
                         "title" => "M",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "20" => array(
+                    "mon-20" => array(
                         "title" => "M",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "21" => array(
+                    "mon-21" => array(
                         "title" => "M",
                         "markup" => "0",
                         "cell-color" => "default-c",
@@ -114,97 +114,97 @@ class Schedule{
                     ),
                 ),
                 "tuesday" => array(
-                    "6" => array(
+                    "tue-6" => array(
                         "title" => "T",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "7" => array(
+                    "tue-7" => array(
                         "title" => "T",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "8" => array(
+                    "tue-8" => array(
                         "title" => "T",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "9" => array(
+                    "tue-9" => array(
                         "title" => "T",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "10" => array(
+                    "tue-10" => array(
                         "title" => "T",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "11" => array(
+                    "tue-11" => array(
                         "title" => "T",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "12" => array(
+                    "tue-12" => array(
                         "title" => "T",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "13" => array(
+                    "tue-13" => array(
                         "title" => "T",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "14" => array(
+                    "tue-14" => array(
                         "title" => "T",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "15" => array(
+                    "tue-15" => array(
                         "title" => "T",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "16" => array(
+                    "tue-16" => array(
                         "title" => "T",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "17" => array(
+                    "tue-17" => array(
                         "title" => "T",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "18" => array(
+                    "tue-18" => array(
                         "title" => "T",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "19" => array(
+                    "tue-19" => array(
                         "title" => "T",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "20" => array(
+                    "tue-20" => array(
                         "title" => "T",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "21" => array(
+                    "tue-21" => array(
                         "title" => "T",
                         "markup" => "0",
                         "cell-color" => "default-c",
@@ -212,97 +212,97 @@ class Schedule{
                     ),
                 ),
                 "wednesday" => array(
-                    "6" => array(
+                    "wed-6" => array(
                         "title" => "W",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "7" => array(
+                    "wed-7" => array(
                         "title" => "W",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "8" => array(
+                    "wed-8" => array(
                         "title" => "W",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "9" => array(
+                    "wed-9" => array(
                         "title" => "W",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "10" => array(
+                    "wed-10" => array(
                         "title" => "W",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "11" => array(
+                    "wed-11" => array(
                         "title" => "W",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "12" => array(
+                    "wed-12" => array(
                         "title" => "W",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "13" => array(
+                    "wed-13" => array(
                         "title" => "W",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "14" => array(
+                    "wed-14" => array(
                         "title" => "W",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "15" => array(
+                    "wed-15" => array(
                         "title" => "W",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "16" => array(
+                    "wed-16" => array(
                         "title" => "W",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "17" => array(
+                    "wed-17" => array(
                         "title" => "W",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "18" => array(
+                    "wed-18" => array(
                         "title" => "W",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "19" => array(
+                    "wed-19" => array(
                         "title" => "W",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "20" => array(
+                    "wed-20" => array(
                         "title" => "W",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "21" => array(
+                    "wed-21" => array(
                         "title" => "W",
                         "markup" => "0",
                         "cell-color" => "default-c",
@@ -310,97 +310,97 @@ class Schedule{
                     ),
                 ),
                 "thursday" => array(
-                    "6" => array(
+                    "thu-6" => array(
                         "title" => "T",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "7" => array(
+                    "thu-7" => array(
                         "title" => "T",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "8" => array(
+                    "thu-8" => array(
                         "title" => "T",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "9" => array(
+                    "thu-9" => array(
                         "title" => "T",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "10" => array(
+                    "thu-10" => array(
                         "title" => "T",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "11" => array(
+                    "thu-11" => array(
                         "title" => "T",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "12" => array(
+                    "thu-12" => array(
                         "title" => "T",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "13" => array(
+                    "thu-13" => array(
                         "title" => "T",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "14" => array(
+                    "thu-14" => array(
                         "title" => "T",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "15" => array(
+                    "thu-15" => array(
                         "title" => "T",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "16" => array(
+                    "thu-16" => array(
                         "title" => "T",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "17" => array(
+                    "thu-17" => array(
                         "title" => "T",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "18" => array(
+                    "thu-18" => array(
                         "title" => "T",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "19" => array(
+                    "thu-19" => array(
                         "title" => "T",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "20" => array(
+                    "thu-20" => array(
                         "title" => "T",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "21" => array(
+                    "thu-21" => array(
                         "title" => "T",
                         "markup" => "0",
                         "cell-color" => "default-c",
@@ -408,97 +408,97 @@ class Schedule{
                     ),
                 ),
                 "friday" => array(
-                    "6" => array(
+                    "fri-6" => array(
                         "title" => "F",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "7" => array(
+                    "fri-7" => array(
                         "title" => "F",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "8" => array(
+                    "fri-8" => array(
                         "title" => "F",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "9" => array(
+                    "fri-9" => array(
                         "title" => "F",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "10" => array(
+                    "fri-10" => array(
                         "title" => "F",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "11" => array(
+                    "fri-11" => array(
                         "title" => "F",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "12" => array(
+                    "fri-12" => array(
                         "title" => "F",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "13" => array(
+                    "fri-13" => array(
                         "title" => "F",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "14" => array(
+                    "fri-14" => array(
                         "title" => "F",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "15" => array(
+                    "fri-15" => array(
                         "title" => "F",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "16" => array(
+                    "fri-16" => array(
                         "title" => "F",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "17" => array(
+                    "fri-17" => array(
                         "title" => "F",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "18" => array(
+                    "fri-18" => array(
                         "title" => "F",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "19" => array(
+                    "fri-19" => array(
                         "title" => "F",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "20" => array(
+                    "fri-20" => array(
                         "title" => "F",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "21" => array(
+                    "fri-21" => array(
                         "title" => "F",
                         "markup" => "0",
                         "cell-color" => "default-c",
@@ -506,97 +506,97 @@ class Schedule{
                     ),
                 ),
                 "saturday" => array(
-                    "6" => array(
+                    "sat-6" => array(
                         "title" => "S",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "7" => array(
+                    "sat-7" => array(
                         "title" => "S",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "8" => array(
+                    "sat-8" => array(
                         "title" => "S",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "9" => array(
+                    "sat-9" => array(
                         "title" => "S",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "10" => array(
+                    "sat-10" => array(
                         "title" => "S",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "11" => array(
+                    "sat-11" => array(
                         "title" => "S",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "12" => array(
+                    "sat-12" => array(
                         "title" => "S",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "13" => array(
+                    "sat-13" => array(
                         "title" => "S",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "14" => array(
+                    "sat-14" => array(
                         "title" => "S",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "15" => array(
+                    "sat-15" => array(
                         "title" => "S",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "16" => array(
+                    "sat-16" => array(
                         "title" => "S",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "17" => array(
+                    "sat-17" => array(
                         "title" => "S",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "18" => array(
+                    "sat-18" => array(
                         "title" => "S",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "19" => array(
+                    "sat-19" => array(
                         "title" => "S",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "20" => array(
+                    "sat-20" => array(
                         "title" => "S",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "21" => array(
+                    "sat-21" => array(
                         "title" => "S",
                         "markup" => "0",
                         "cell-color" => "default-c",
@@ -604,97 +604,97 @@ class Schedule{
                     ),
                 ),
                 "sunday" => array(
-                    "6" => array(
+                    "sun-6" => array(
                         "title" => "S",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "7" => array(
+                    "sun-7" => array(
                         "title" => "S",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "8" => array(
+                    "sun-8" => array(
                         "title" => "S",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "9" => array(
+                    "sun-9" => array(
                         "title" => "S",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "10" => array(
+                    "sun-10" => array(
                         "title" => "S",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "11" => array(
+                    "sun-11" => array(
                         "title" => "S",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "12" => array(
+                    "sun-12" => array(
                         "title" => "S",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "13" => array(
+                    "sun-13" => array(
                         "title" => "S",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "14" => array(
+                    "sun-14" => array(
                         "title" => "S",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "15" => array(
+                    "sun-15" => array(
                         "title" => "S",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "16" => array(
+                    "sun-16" => array(
                         "title" => "S",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "17" => array(
+                    "sun-17" => array(
                         "title" => "S",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "18" => array(
+                    "sun-18" => array(
                         "title" => "S",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "19" => array(
+                    "sun-19" => array(
                         "title" => "S",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "20" => array(
+                    "sun-20" => array(
                         "title" => "S",
                         "markup" => "0",
                         "cell-color" => "default-c",
                         "description" => ""
                     ),
-                    "21" => array(
+                    "sun-21" => array(
                         "title" => "S",
                         "markup" => "0",
                         "cell-color" => "default-c",

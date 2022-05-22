@@ -1,3 +1,2 @@
 TAREA UNICA: 
-    Cargar desde PHP el horario al localhost, desde ahí
-    vamos a cargar los datos en el modal.
+    Aprender sobre JSON functions en mysql :)
