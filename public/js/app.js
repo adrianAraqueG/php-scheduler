@@ -10,7 +10,20 @@ const modalClose1 = document.querySelector('#modalClose1');
 const modalClose2 = document.querySelector('#modalClose2');
 const modalSave = document.querySelector('#modalSave');
 
-modalSave.addEventListener('click', saveChanges);
+
+// Form variables
+const form = document.querySelector('#form');
+const tkLabel = document.querySelector('#task-label');
+const markup = document.querySelector('#markup');
+const cellColor = document.querySelector('#t-cell-color');
+const tkDesc = document.querySelector('#task-desc');
+
+const lh = window.localStorage;
+
+
+modalSave.addEventListener('click', () =>{
+    form.submit();
+});
 modalClose1.addEventListener('click', () =>{
     if(form.querySelector(`input[type=hidden]`)){
         form.removeChild(form.querySelector(`input[type=hidden]`));
@@ -21,16 +34,6 @@ modalClose2.addEventListener('click', () =>{
         form.removeChild(form.querySelector(`input[type=hidden]`));
     }
 });
-
-
-// Form variables
-const form = document.querySelector('#form');
-const tkLabel = document.querySelector('#task-label');
-const markup = document.querySelector('#markup');
-const cellColor = document.querySelector('#t-cell-color');
-const tkDesc = document.querySelector('#task-desc');
-
-const lh = window.localStorage;
 
 
 // Set info from localHost
@@ -169,6 +172,7 @@ function showLabel(time){
             // Set identifier
             const input = document.createElement('input');
             input.type = 'hidden';
+            input.name = 'meta';
             input.value = `monday-${time}`;
             form.append(input);
 
@@ -188,6 +192,7 @@ function showLabel(time){
             // Set identifier
             const input = document.createElement('input');
             input.type = 'hidden';
+            input.name = 'meta';
             input.value = `tuesday-${time}`;
             form.append(input);
 
@@ -207,6 +212,7 @@ function showLabel(time){
             // Set identifier
             const input = document.createElement('input');
             input.type = 'hidden';
+            input.name = 'meta';
             input.value = `wednesday-${time}`;
             form.append(input);
 
@@ -226,6 +232,7 @@ function showLabel(time){
             // Set identifier
             const input = document.createElement('input');
             input.type = 'hidden';
+            input.name = 'meta';
             input.value = `thursday-${time}`;
             form.append(input);
 
@@ -245,6 +252,7 @@ function showLabel(time){
             // Set identifier
             const input = document.createElement('input');
             input.type = 'hidden';
+            input.name = 'meta';
             input.value = `friday-${time}`;
             form.append(input);
 
@@ -264,6 +272,7 @@ function showLabel(time){
             // Set identifier
             const input = document.createElement('input');
             input.type = 'hidden';
+            input.name = 'meta';
             input.value = `saturday-${time}`;
             form.append(input);
 
@@ -283,6 +292,7 @@ function showLabel(time){
             // Set identifier
             const input = document.createElement('input');
             input.type = 'hidden';
+            input.name = 'meta';
             input.value = `sunday-${time}`;
             form.append(input);
 

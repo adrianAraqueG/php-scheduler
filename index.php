@@ -58,6 +58,12 @@
 			exit();
 		}
 	});
+	$router->before('POST', '/schedule/save', function() {
+		if (!isset($_SESSION['identity'])) {
+			header('location: '.base_url.'home');
+			exit();
+		}
+	});
 	$router->before('GET', '/errgen', function() {
 		if(!isset($_SESSION['errgen'])){
 			header('location: '.base_url.'entrar');
@@ -103,6 +109,10 @@
 
 		$router->post('/login/validate', function(){
 			UserController::loginUser();
+		});
+
+		$router->post('/schedule/save', function(){
+			HomeController::saveChanges();
 		});
 
 

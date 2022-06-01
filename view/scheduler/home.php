@@ -81,7 +81,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" id="modalClose2"></button>
                 </div>
                 <div class="modal-body" id="modalBody">
-                    <form action="" method="POST" id="form">
+                    <form action="schedule/save" method="POST" id="form">
                         <label for="task-label" class="form-label" value="">Título</label>
                         <input type="text" class="form-control" name="task-label" id="task-label">
 
