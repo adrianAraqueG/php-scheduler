@@ -18,14 +18,12 @@ class HomeController{
         public static function saveChanges(){
             if(isset($_POST['task-label']) 
             && isset($_POST['meta']) 
-            && isset($_POST['markup']) 
             && isset($_POST['t-cell-color'])
             && isset($_POST['task-desc'])
             ){
                 $tkLabel = $_POST['task-label'];
                 $tkDesc = $_POST['task-desc'];
                 $tkCellColor = $_POST['t-cell-color'];
-                $tkMarkup = $_POST['markup'];
                 $meta = $_POST['meta'];
 
                 // validate each var
@@ -40,10 +38,10 @@ class HomeController{
                     return;
                 }
 
-                if($tkMarkup == 'on'){
-                    $tkMarkup = '1';
+                if(isset($tkMarkup) && $tkMarkup == 'on'){
+                    $tkMarkup = "1";
                 }else{
-                    $tkMarkup = '0';
+                    $tkMarkup = "0";
                 }
 
                 // get META
@@ -56,17 +54,26 @@ class HomeController{
                 // save info
                 $change = array(
                     "title" => $tkLabel,
-                    "markup" => $tkDesc,
+                    "markup" => $tkMarkup,
                     "cell-color" => $tkCellColor,
                     "description" => $tkDesc
                 );
 
+                //var_dump(json_encode($actualSchedule));
+
                 $actualSchedule->{$arrMeta[0]}->{$arrMeta[1].'-'.$arrMeta[2]} = $change;
 
+                //var_dump(json_encode($actualSchedule));
+
                 $scheduler->saveChanges($_SESSION['identity']->id, $actualSchedule);
+            }else{
+
+                // Not used yet
+                $_SESSION['errSave'] = "Internal Err: Uncomplete info";
+
             }
 
-            header('Location:'.base_url.'home');
+            header('location:'.base_url.'home');
         }
     
     

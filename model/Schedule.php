@@ -735,7 +735,7 @@ class Schedule{
 
         public function saveChanges($userID, $schedule){
             $json = json_encode($schedule);
-
+            //var_dump($json);
             $sql = "UPDATE schedule SET data = '{$json}' WHERE user_id = {$userID}";
 
             try{
